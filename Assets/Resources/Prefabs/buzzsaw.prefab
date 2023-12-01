@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3073501326309449985}
   - component: {fileID: 3073501326309449998}
   - component: {fileID: 3073501326309449999}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: buzzsaw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
