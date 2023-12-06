@@ -40,6 +40,8 @@ public class Hazard : MonoBehaviour
             Instantiate(playerDeathPrefab, coll.contacts[0].point, Quaternion.identity); //instantiate it as collision point 
             spriteRenderer.sprite = hitSprite; //Swap sawblade with hitSprite
             Destroy(coll.gameObject); //Destroy player
+
+            GameManager.instance.RestartLevel(1.25f);
         }
     }
 }
